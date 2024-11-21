@@ -14,7 +14,7 @@ body {
 #header{
     width: 100%;
     height: 140vh;
-    background-image: url(./images/3311e38b-7395-47f8-b060-608cdac0309a.jpg);
+    background-image: url(./images/bobo.png);
     background-size: cover;
     background-position: center;
 }
@@ -369,3 +369,58 @@ nav .fa-solid{
 }
 /* 268c21 */
 
+/*--------------------------------------------------------------
+# Skills Section
+--------------------------------------------------------------*/
+
+.skills .skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Reduce this to make columns closer */
+}
+
+.skills .col-lg-6 {
+    padding: 0 10px; /* Adjust horizontal padding */
+    margin-bottom: 50px; /* Reduce vertical spacing between items */
+    
+}
+
+.skills .progress {
+    margin-bottom: 15px; /* Space between individual progress bars */
+}
+
+.skills .progress-bar-wrap {
+    width: 200%; /* Increase the width to make the progress bar longer */
+    height: 12px; /* Increase the height to make it wider */
+    background-color: #383737; /* Background color for the remaining bar */
+    overflow: hidden;
+}
+
+.skills .progress-bar {
+    width: 50%;
+    transition: width 1.2s ease-in-out;
+}
+
+.skills .progress-bar.html {
+    width: 100%;
+}
+
+.skills .progress-bar.css {
+    width: 90%;
+}
+
+.skills .progress-bar.javascript {
+    width: 75%;
+}
+
+.skills .progress-bar.nodejs {
+    width: 80%;
+}
+
+.skills .progress-bar.wordpress {
+    width: 90%;
+}
+
+.skills .progress-bar.mongodb {
+    width: 55%;
+}
